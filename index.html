@@ -17,6 +17,7 @@
 body{
   background:linear-gradient(135deg,#020617,#0f172a);
   color:#e5e7eb;
+  background-image: url(images/bg.gif);
 }
 
 /* NAVBAR */
@@ -26,6 +27,9 @@ nav{
   z-index:1000;
   background:rgba(2,6,23,0.95);
   border-bottom:1px solid #1e293b;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 .navbar{
   max-width:1200px;
@@ -81,6 +85,7 @@ header p{
   margin-bottom:35px;
   cursor:pointer;
   transition:.3s;
+  height: 300px;
 }
 .card:hover{
   transform:translateY(-6px);
@@ -133,7 +138,7 @@ footer{
 
 <nav>
   <div class="navbar">
-    <div class="logo">🎬 AnimationGuide</div>
+    <div class="logo"> Animation Principles</div>
     <div class="menu">
       <a href="#">Home</a>
       <a href="#principles">Principles</a>
@@ -221,7 +226,7 @@ function closeBox(){
 </script>
 
 <footer>
-    <p>© Animation Basics | Created by vineet</p>
+    <p> Created by vineet</p>
 </footer>
 
 </body>
